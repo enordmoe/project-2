@@ -21,7 +21,16 @@ penguins |>
   ggplot(aes(x = body_mass_g, y = flipper_length_mm, color = species)) +
     geom_point() +
     labs(title = "Penguins Body Mass compared to Flipper Length", 
+         subtitle= "Lets give a detailed subtitle",
          x = "Body Mass", 
          y = "Flipper Length")
 ```
+
+
+I think adding some lorem ipsum text below would improve the report:
+
+Paragraphs
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.
+
+Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
 
